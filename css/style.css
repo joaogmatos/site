@@ -1824,17 +1824,22 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-service__profile {
-	width: 250px;
-    height: 300px;
+	width: 200px;
+    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 .box-service__profile1 {
 	background-image: url("../images/RitaSousa.jpeg");
 }
 .box-service__profile2 {
 	background-image: url("../images/JoanaSerpa.jpeg");
+}
+.box-service__profile3 {
+	background-image: url("../images/AnaSantosAlmeida.jpeg");
 }
 
 @media (min-width: 768px) {
@@ -3610,7 +3615,7 @@ footer.section.footer-classic::before {
 		margin-top: 45px;
 	}
 	.footer-info li + li {
-		margin-top: 20px;
+		margin-top: 5px;
 	}
 	.footer-social {
 		margin-top: 47px;
@@ -8769,4 +8774,30 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 #map {
 	height: 100%;
+}
+
+.icon-research {
+	width: 26px;
+	height: auto;
+}
+.section-join {
+	padding-bottom: 45px;
+}
+.footer-title {
+	font-weight: bold;
+	color: #000;
+}
+.footer-location {
+    margin-top: 20px;
+	color: #000;
+}
+@media (min-width: 1200px){
+.footer-location {
+    margin-top: 45px;
+}}
+.header-img {
+	background-image: url("../images/AnaIMM2.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
