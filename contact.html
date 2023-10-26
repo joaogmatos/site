@@ -2,6 +2,15 @@
 <!-- icons--><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTBGVK9HW1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FTBGVK9HW1');
+    </script>
     <title>Contacts</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -26,7 +35,7 @@
     <div class="page">
       <header class="section page-header">
         <!--RD Navbar-->
-        <div class="rd-navbar-wrap">
+        <div class="rd-navbar-wrap rd-navbar-wrap-absolute">
           <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
@@ -36,14 +45,18 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-85x35.svg" alt="" width="85" height="35"/><img class="brand-logo-light" src="images/logo-inverse-85x35.svg" alt="" width="85" height="35"/></a>
+                    <!--Brand--><a class="brand" href="index.html">
+                      <img class="brand-logo-dark logo-logo" src="images/MicrobiomeHDLab_LogoDesign_BLACK.png" alt="" />
+                      <!-- <img class="brand-logo-dark" src="images/logo-default-85x35.svg" alt="" width="85" height="35"/>
+                      <img class="brand-logo-light" src="images/logo-inverse-85x35.svg" alt="" width="85" height="35"/> -->
+                    </a>
                   </div>
                   <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
                   <div class="rd-navbar-aside-outer rd-navbar-collapse">
                     <div class="rd-navbar-aside">
                       <ul class="rd-navbar-contact">
-                        <li class="rd-navbar-contact-item"><a class="rd-navbar-contact-link" href="mailto:#">mail@demolink.org</a></li>
-                        <li class="rd-navbar-contact-item"><a class="rd-navbar-contact-link" href="tel:#">+1 (324) 987-56-54</a></li>
+                        <li class="rd-navbar-contact-item"><a class="rd-navbar-contact-link" href="mailto:anasalmeida@medicina.ulisboa.pt">anasalmeida@medicina.ulisboa.pt</a></li>
+                        <li class="rd-navbar-contact-item"><a class="rd-navbar-contact-link" href="https://twitter.com/ana_salmeida">@ana_salmeida</a></li>
                       </ul>
                     </div>
                   </div>
@@ -55,19 +68,24 @@
                     <rect x="14.3864" y="14.3864" width="9.86364" height="9.86364" rx="4.25" stroke-width="1.5"></rect>
                     <rect x="0.75" y="14.3864" width="9.86364" height="9.86364" rx="1.25" stroke-width="1.5"></rect>
                   </svg>
-                </div>
+                </div> 
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-close-toggle mdi mdi-close" data-multitoggle=".rd-navbar-nav-wrap"><span></span></div>
                   <div class="rd-navbar-nav-wrapper">
                     <div class="rd-navbar-nav-wrap-inner">
+                      <!-- <h5>Microbiome HD Lab</h5> -->
                       <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                        <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
                         </li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="what-i-do.html">What I do</a>
+                        </li> -->
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="cases.html">Cases</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="publications.html">Publications</a>
                         </li>
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="lab-news.html">Lab news</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contact</a>
                         </li>
                       </ul>
                     </div>
@@ -79,21 +97,35 @@
         </div>
       </header>
       <!-- Breadcrumbs-->
-      <div class="section breadcrumbs-custom">
+      <!-- <div class="section breadcrumbs-custom">
         <div class="container">
           <ul class="breadcrumbs-custom-path">
             <li><a href="index.html">Home</a></li>
             <li class="active">Contacts</li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <!--Mailform-->
-      <section class="section section-md bg-default section-bottom-0">
+      <section class="section section-md bg-default section-bottom-0" style="margin-top: 80px;">
         <div class="container">
           <div class="row row-40">
             <div class="col-md-6">
-              <h2>Get in touch with me</h2>
-              <!--RD Mailform-->
+              <div class="box-contact" style="flex-direction: column;">
+                <h6 class="box-contact-title">email</h6>
+                <h4 class="box-contact-body" style="margin-bottom: 40px;">
+                  <a href="mail:to">anasalmeida@medicina.ulisboa.pt</a>
+                </h4>
+                
+              </div>
+              <div class="box-contact">
+                <h6 class="box-contact-title">Location</h6>
+                <h4 class="box-contact-body">Instituto de Medicina Molecular João Lobo Antunes<br/>
+                  Edifício Egas Moniz<br/>
+                  Avenida Professor Egas Moniz<br/>
+                  1649-028 Lisboa, Portugal
+                  </h4>
+              </div>
+              <!-- <h2>Get in touch with me</h2>
               <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="form-wrap">
                   <label class="form-label" for="contact-name">Your name</label>
@@ -118,20 +150,20 @@
                     </svg>send
                   </button>
                 </div>
-              </form>
+              </form> -->
             </div>
-            <div class="col-md-6 col-lg-5 offset-lg-1">
+            <div class="col-md-6 col-lg-5 offset-lg-1" style="margin-bottom: 140px;">
               <!-- <img src="images/contacts-01-510x620.jpg" alt="" width="510" height="620"/> -->
               <div id="map"></div>
             </div>
           </div>
-          <div class="row row-30 row-lg" style="margin-bottom: 50px;">
+          <!-- <div class="row row-30 row-lg" style="margin-bottom: 50px;">
             <div class="col-xl-4">
               <div class="box-contact">
                 <h6 class="box-contact-title">email</h6>
                 <ul class="box-contact-body list-contact">
                   <li class="h4"><a href="mail:to">anasalmeida@medicina.ulisboa.pt</a></li>
-                  <!-- <li class="h4"><a href="tel:#">+1 (324) 987-56-54</a></li> -->
+                  
                 </ul>
               </div>
             </div>
@@ -145,27 +177,37 @@
                   </h4>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <footer class="section footer-classic">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-6">
-              <h6 class="footer-title">Let’s work together</h6>
-              <h2 class="h2-offset-narrow pe-xl-5">Working with clients from all over the world.</h2><a class="btn btn-icon-arrow btn-primary btn-icon-right footer-btn" href="#">
+            <div class="col-md-6 col-xl-3">
+              <h6 class="footer-title">LOCATION</h6>
+              <p class="footer-location">
+                Instituto de Medicina Molecular João Lobo Antunes<br/>
+                  Edifício Egas Moniz<br/>
+                  Avenida Professor Egas Moniz<br/>
+                  1649-028 Lisboa, Portugal
+              </p>
+              <!-- <h2 class="h2-offset-narrow pe-xl-5">Working with clients from all over the world.</h2> -->
+                <!-- <a class="btn btn-icon-arrow btn-primary btn-icon-right footer-btn" href="#">
                 <svg class="icon-fill" width="37" height="10" viewBox="0 0 37 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M31.225 7.284L30.509 7.9821L31.9052 9.4141L32.6212 8.716L31.225 7.284ZM35 5L35.6981 5.716L36.4325 5L35.6981 4.284L35 5ZM32.6212 1.284L31.9052 0.5859L30.509 2.0179L31.225 2.716L32.6212 1.284ZM32.6212 8.716L35.6981 5.716L34.3019 4.284L31.225 7.284L32.6212 8.716ZM35.6981 4.284L32.6212 1.284L31.225 2.716L34.3019 5.716L35.6981 4.284ZM35 4H0V6H35V4ZM0 6H25V4H0V6Z"></path>
-                </svg>get in touch</a>
+                </svg>get in touch</a> -->
             </div>
             <div class="col-md-6 col-xl-3">
-              <h6 class="footer-title">e-mail me</h6>
+              <h6 class="footer-title">Contact</h6>
               <ul class="footer-info">
-                <li><a class="footer-link" href="mailto:#">mail@demolink.org</a></li>
+                <li><a class="footer-link" href="mailto:anasalmeida@medicina.ulisboa.pt">anasalmeida@medicina.ulisboa.pt</a></li>
+                <li><a class="footer-link" href="https://twitter.com/ana_salmeida">@ana_salmeida</a></li>
               </ul>
             </div>
             <div class="col-md-6 col-xl-3">
-              <h6 class="footer-title">find me</h6>
+              <img src="images/iMM.png" alt="IMM, Instituto Medicina Molecular" />
+              <img src="images/MicrobiomeHDLab_LogoDesign_BLACK.png" alt="" />
+              <!-- <h6 class="footer-title">find me</h6>
               <ul class="footer-social list-social">
                 <li><a class="icon icon-md icomoon icomoon-twitter" href="#"></a></li>
                 <li><a class="icon icon-md icomoon icomoon-instagram" href="#"></a></li>
@@ -173,13 +215,15 @@
                 <li><a class="icon icon-md icomoon icomoon-behance" href="#"></a></li>
                 <li><a class="icon icon-md icomoon icomoon-pinterest" href="#"></a></li>
                 <li><a class="icon icon-md icomoon icomoon-facebook" href="#"></a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="footer-divider">
             <hr>
           </div>
-          <p class="rights text-primary"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>.&nbsp;</span><span>Inder</span><span>.&nbsp;</span><span>All rights reserved</span><span>.&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a></p>
+          <p class="rights text-primary"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>.&nbsp;</span><span>Microbiome HD Lab</span><span>.&nbsp;</span><span>All rights reserved</span><span>.&nbsp;</span>
+            <!-- <a href="privacy-policy.html">Privacy Policy</a> -->
+          </p>
         </div>
       </footer>
     </div>

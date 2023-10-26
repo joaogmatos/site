@@ -2,6 +2,15 @@
 <!-- icons--><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTBGVK9HW1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FTBGVK9HW1');
+    </script>
     <title>Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -31,13 +40,13 @@
                 <!--RD Navbar Panel-->
                 <div class="rd-navbar-panel">
                   <!--RD Navbar Toggle-->
-                  <!-- <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button> -->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
                     <!--Brand--><a class="brand" href="index.html">
-                      Microbiome HD Lab
-                      <!-- <img class="brand-logo-dark" src="images/logo-default-85x35.svg" alt="" width="85" height="35"/>
-                      <img class="brand-logo-light" src="images/logo-inverse-85x35.svg" alt="" width="85" height="35"/> -->
+                      <!-- Microbiome HD Lab -->
+                      <img class="brand-logo-dark logo-logo" src="images/MicrobiomeHDLab_LogoDesign_BLACK.png" alt="" />
+                      <!-- <img class="brand-logo-light" src="images/logo-inverse-85x35.svg" alt="" width="85" height="35"/> -->
                     </a>
                   </div>
                   <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
@@ -50,25 +59,29 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="rd-navbar-nav-toggle" data-multitoggle=".rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-toggle" data-multitoggle=".rd-navbar-nav-wrap">
                   <svg class="icon-stroke" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.75" y="0.75" width="9.86364" height="9.86364" rx="1.25" stroke-width="1.5"></rect>
                     <rect x="14.3864" y="0.75" width="9.86364" height="9.86364" rx="1.25" stroke-width="1.5"></rect>
                     <rect x="14.3864" y="14.3864" width="9.86364" height="9.86364" rx="4.25" stroke-width="1.5"></rect>
                     <rect x="0.75" y="14.3864" width="9.86364" height="9.86364" rx="1.25" stroke-width="1.5"></rect>
                   </svg>
-                </div>  -->
+                </div> 
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-close-toggle mdi mdi-close" data-multitoggle=".rd-navbar-nav-wrap"><span></span></div>
                   <div class="rd-navbar-nav-wrapper">
                     <div class="rd-navbar-nav-wrap-inner">
                       <!-- <h5>Microbiome HD Lab</h5> -->
                       <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                        <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
                         </li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="what-i-do.html">What I do</a>
+                        </li> -->
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="join.html">Join the Team</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="publications.html">Publications</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="lab-news.html">Lab news</a>
                         </li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contact</a>
                         </li>
@@ -83,17 +96,17 @@
       </header>
       <!-- Sections-->
       <!--Into-->
-      <section class="section section-inset-1 section-single-inner bg-transparent">
+      <section class="section section-inset-1 section-single-inner bg-transparent home-top-section">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-6 col-xl-8">
+            <div class="col-lg-6 col-xl-6">
               <h6>Welcome</h6>
               <h1 class="pe-xl-5">Microbiome in Health and Disease Translational Lab</h1>
-              <p>The Microbiome in Health and Disease Translational Laboratory is an interdisciplinary and highly collaborative team of clinical microbiologists, computational biologists, nutritionists, immunologists, and gastroenterologists. 
-                <br/><br/>
-                Our lab is dedicated to leveraging the potential of the microbiome to revolutionize the field of colorectal cancer research.
+              <p>Our lab is dedicated to leveraging the potential of the human microbiome to revolutionise the field of colorectal cancer research.
                 <br/><br/>
                 Our mission is to develop innovative diagnostic tools and microbiome-based biotherapeutics to intercept, prevent, and treat colorectal cancer.
+                <br/><br/>
+                We are an interdisciplinary and highly collaborative team of clinical microbiologists, computational biologists, nutritionists, immunologists, and gastroenterologists.
                 </p>
               <div class="text-center text-lg-start">
                 <div class="link-arrow-down" data-custom-scroll-to="about">
@@ -103,8 +116,38 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xl-4 pt-lg-5 text-center text-lg-end header-img">
-              <!-- <img class="mt-xxl-n2" src="images/AnaSantosAlmeida.jpeg" alt="" width="448" height="672"/> -->
+            <!-- <div class="col-lg-6 col-xl-4 pt-lg-5 text-center text-lg-end header-img">
+              <img class="mt-xxl-n2" src="images/AnaSantosAlmeida.jpeg" alt="" width="448" height="672"/> 
+            </div> -->
+            <div class="col-lg-6 col-xl-6 pt-lg-5 text-center text-lg-end header-img">
+              <div class="slider">
+                <div class="slides">
+                  <div class="slide current slide1"></div>
+                  <div class="slide slide2"></div>
+                  <div class="slide slide3"></div>
+                  <!-- <div class="slide ">4</div>
+                  <div class="slide">5</div>
+                  <div class="slide">6</div>
+                  <div class="slide">7</div>
+                  <div class="slide">8</div>
+                  <div class="slide">9</div>
+                  <div class="slide">10</div>
+                  <div class="slide">11</div>
+                  <div class="slide">12</div>
+                  <div class="slide">13</div>
+                  <div class="slide">14</div>
+                  <div class="slide">15</div>
+                  <div class="slide">16</div>
+                  <div class="slide">17</div>
+                  <div class="slide">18</div>
+                  <div class="slide">19</div>
+                  <div class="slide">20</div> -->
+                </div>
+                <div class="controls">
+                  <div class="goToPrev"></div>
+                  <div class="goToNext"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -133,20 +176,19 @@
                   <h4>Biomarker Discovery</h4>
                 </div>
                 <div class="box-service-text">
-                  <p class="pe-xl-4">We aim to identify and validate novel gut microbiome biomarkers for risk assessment and early CRC diagnosis using precision microbiome profiling and machine learning technology. By analyzing the gut microbiota in individuals at different stages of CRC, we aim to enhance screening methods and enable early intervention.
-</p>
+                  <p class="pe-xl-4">We aim to identify and validate novel gut microbiome biomarkers for risk assessment and early colorectal cancer diagnosis using precision microbiome profiling and machine learning technology. By analysing the gut microbiota in individuals at different stages of colorectal cancer, we aim to enhance screening methods and enable early intervention.</p>
                 </div>
               </div>
-              <div class="box-service">
+              <!-- <div class="box-service">
                 <div class="box-service-header d-flex align-items-baseline">
                   <img class="icon-research" src="images/capsule.png" alt="" />
                   <h4>Microbiome-based therapeutics</h4>
                 </div>
                 <div class="box-service-text">
-                  <p class="pe-xl-4">Another important focus of our lab is the development of microbiota consortia comprising commensal immune-stimulating bacteria. By harnessing the power of these beneficial microbes, we aim to modulate the host immune system in a favourable manner, potentially mitigating the risk of CRC development or aiding in treatment strategies. This research avenue holds promise for the development of novel probiotics or microbial-based therapies that can be tailored to specific individuals or subgroups at risk.
-</p>
+                  <p class="pe-xl-4">We aim to develop microbiota consortia of immune-stimulating bacteria. By harnessing the power of these beneficial microbes, we aim to modulate the host immune system, potentially mitigating the risk of colorectal cancer development or aiding in treatment strategies. This research avenue holds promise for the development of novel synbiotics or postbiotics that can be tailored to specific individuals or subgroups at risk.
+                  </p>
                 </div>
-              </div>
+              </div> -->
               <!-- <div class="box-service box-service-mod">
                 <div class="box-service-header d-flex align-items-baseline">
                   <div class="icon icon-sm icomoon icomoon-camera"></div>
@@ -160,12 +202,24 @@
             <div class="col-md-4 offset-lg-1">
               <div class="box-service">
                 <div class="box-service-header d-flex align-items-baseline">
+                  <img class="icon-research" src="images/capsule.png" alt="" />
+                  <h4>Microbiome-based therapeutics</h4>
+                </div>
+                <div class="box-service-text">
+                  <p class="pe-xl-4">We aim to develop microbiota consortia of immune-stimulating bacteria. By harnessing the power of these beneficial microbes, we aim to modulate the host immune system, potentially mitigating the risk of colorectal cancer development or aiding in treatment strategies. This research avenue holds promise for the development of novel synbiotics or postbiotics that can be tailored to specific individuals or subgroups at risk.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 offset-lg-1">
+              <div class="box-service">
+                <div class="box-service-header d-flex align-items-baseline">
                   
                   <img class="icon-research" src="images/microorganisms.png" alt="" />
                   <h4>Host-Microbiome Interactions</h4>
                 </div>
                 <div class="box-service-text">
-                  <p class="pe-xl-4">We study the role of microbial metabolites in shaping host immune responses in CRC. Through metabolomic profiling and culturomics, we aim to uncover the specific microbial metabolites linked to distinct immune responses in CRC. This knowledge will deepen our understanding of the microbiome-immune system crosstalk and facilitate the development of novel biotherapeutics.</p>
+                  <p class="pe-xl-4">We study the role of microbial metabolites in shaping host immune responses in colorectal cancer. Through metabolomic profiling and culturomics, we aim to uncover the specific microbial metabolites and pathways linked to distinct immune responses in colorectal cancer. </p>
                 </div>
               </div>
               
@@ -232,8 +286,6 @@
             <div class="col-lg-10 offset-lg-2">
               <p class="pe-lg-5">We are always interested in outstanding candidates excited with the research we do at the Microbiome in Health & Disease Translational Lab.
                 <br/><br/>
-                We are currently recruiting for multiple fully-funded positions, including postdocs, graduate students, and technicians.
-                <br/><br/>
                 If you are interested in joining, please contact Ana Santos Almeida directly, by sending her your CV and a motivation letter telling us why you would like to join our team.
                 </p>
               <!-- <div class="row row-30 row-md align-items-center">
@@ -263,30 +315,30 @@
               <h6>Positions</h6>
             </div>
             <div class="col-md-9 col-lg-7 ">
-              <div class="box-skill">
+              <!-- <div class="box-skill">
                 <div class="box-skill-header">
-                  <h4>Bioinformatician</h4>
+                  <h4>Senior Bioinformatician</h4>
                 </div>
                 
-              </div>
+              </div> -->
               <div class="box-skill">
                 <div class="box-skill-header">
                   <h4>Data Scientist</h4>
                 </div>
                 
               </div>
-              <div class="box-skill">
+              <!-- <div class="box-skill">
                 <div class="box-skill-header">
                   <h4>Lab manager</h4>
                 </div>
                 
-              </div>
-              <div class="box-skill">
+              </div> -->
+              <!-- <div class="box-skill">
                 <div class="box-skill-header">
                   <h4>Nutritionist</h4>
                 </div>
                 
-              </div>
+              </div> -->
               <!-- <div class="box-skill">
                 <div class="box-skill-header">
                   <h4>New Jersey College (2010 - 2011)</h4>
@@ -320,8 +372,8 @@
                   <h4>2023-2029</h4>
                 </div>
                 <div class="box-skill-text">
-                  <p>Improving Colorectal Cancer Early Screening in Portugal: Identification and Validation of Gut Microbiome and Methylation Biomarkers. Funding Agency: European Commission</p>
-                  <img src="images/eu_flag.jpeg" />
+                  <p>Improving Colorectal Cancer Early Screening in Portugal: Identification and Validation of Gut Microbiome and Methylation Biomarkers. <br/><span class="text-underline">Funding Agency</span>: European Commission</p>
+                  <img style="max-width: 160px;" src="images/EN_FundedbytheEU_RGB_Monochrome.png" />
                 </div>
               </div>
               <div class="box-skill">
@@ -329,7 +381,7 @@
                   <h4>2023-2028</h4>
                 </div>
                 <div class="box-skill-text">
-                  <p>MISSION – The Power of Microbiota to Modulate the Immune Response In Colorectal Cancer. Funding Agency: Fundação para a Ciência e a Tecnologia</p>
+                  <p>MISSION – The Power of Microbiota to Modulate the Immune Response In Colorectal Cancer. <br/><span class="text-underline">Funding Agency</span>: Fundação para a Ciência e a Tecnologia</p>
                   <img src="images/fct_logo.png" />
                 </div>
               </div>
@@ -411,16 +463,22 @@
       <!-- about-->
       <section class="section section-lg bg-transparent" id="about">
         <div class="container">
+          <div class="row">
+            <div class="col-xl-10">
+              <!-- <h6>Join the team</h6> -->
+              <h2>Team</h2>
+            </div>
+          </div>
           <!-- <div class="row">
             <div class="col-xl-10">
               <h6>Microbiome in Health and Disease Translational Lab</h6>
               <h2>Our research focuses on three key areas:</h2>
             </div>
           </div> -->
-          <div class="row row-30 row-xxl">
-            <div class="col-md-3 col-lg-2">
+          <div class="row row-30">
+            <!-- <div class="col-md-3 col-lg-2">
               <h6>Team</h6>
-            </div>
+            </div> -->
             <div class="col-md-4 offset-lg-1">
               <div class="box-service">
                 <div class="box-service-header d-flex align-items-baseline">
@@ -471,7 +529,7 @@
                   <h4>Joana Serpa, Nutritionist, MSc. student</h4>
                 </div>
                 <div class="box-service-text">
-                  <p class="pe-xl-4">I have a degree in Nutrition Sciences and am currently in my second year of the Master's Degree program in Clinical Nutrition at the University of Lisbon - Faculty of Medicine. My MSc. thesis focuses on the role of the Mediterranean Diet in influencing the intestinal microbiota and the development of colorectal cancer. My areas of interest include metabolic diseases, cancer, intestinal microbiota, geriatrics, and community nutrition. Food education is a particular favourite of mine in the field!
+                  <p class="pe-xl-4">I hold a degree in Nutrition Sciences and am currently pursuing my Master's Degree program in Clinical Nutrition at the University of Lisbon, Faculty of Medicine in Portugal. My MSc. thesis explores the impact of the Mediterranean Diet on the gut microbiota and its connection to colorectal cancer incidence. My areas of interest include metabolic diseases, cancer, intestinal microbiota, geriatrics, and community nutrition. Food education is a particular favourite of mine in the field!
                   </p>
                 </div>
               </div>
@@ -486,7 +544,7 @@
           </div> -->
         </div>
       </section>
-      <section class="section section-xl bg-gray">
+      <section class="section section-xl bg-gray lab-news-section">
         <div class="container">
           <div class="row row-30 justify-content-center justify-content-md-start">
             <div class="col-md-3 col-lg-2">
@@ -496,6 +554,119 @@
             <div class="col-md-8 offset-lg-1">
               <div class="owl-carousel owl-theme owl-carousel-style-2" data-items="1" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500,&quot;margin&quot;:20,&quot;stagePadding&quot;:0}">
                 <div class="quote-classic">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">European Researcher’s Night 2023</p>
+                      <div class="carossel-slide">
+                        <img src="./images/researchersnight.png" />
+                        <span>How do microbes affect the health of the intestines? A scientist (our very own Ana Santos Almeida), a doctor, and a patient discussed this topic with the journalist Teresa Serafim in the Horizontes iMM session at the European Researcher’s Night 2023.
+                          </span>
+                      
+                      </div>
+                      <p class="quote-cite"></p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  1 of 6</p>
+                  </div>
+                </div>
+                <div class="quote-classic">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">Artigo de opinião no Público: “Micróbios: os bons e os maus e um dia de celebração”</p>
+                      <p class="quote-cite">
+                        A nossa PI, Ana Santos Almeida, escreveu um artigo de opinião no jornal português O Público, a propósito do Dia Internacional do Microorganismo.
+                        <a href="https://www.publico.pt/2023/09/17/ciencia/opiniao/microbios-bons-maus-dia-celebracao-2063459" target="_blank">Artigo.</a>
+                      </p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  2 of 6</p>
+                  </div>
+                </div>
+                <div class="quote-classic ">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">We are 3! Welcome to our first MSc. student
+                      </p>
+                      <p class="quote-cite">
+                        <div class="carossel-slide">
+                          <img src="./images/20230926_150956.jpeg" />
+                          <span>Thrilled to introduce Joana Serpa, nutritionist and soon-to-be mom, who is undertaking her MSc. thesis on the impact of the Mediterranean Diet and CRC incidence.</span>
+                        
+                        </div>
+                        
+                      </p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  3 of 6</p>
+                  </div>
+                </div>
+                <div class="quote-classic ">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">O Futuro do Futuro podcast
+                      </p>
+                      <p class="quote-cite">
+                        <div class="carossel-slide">
+                          <img src="./images/expresso.png" />
+                          <span>Our PI, Ana Santos Ameida, was invited to share her views on antibiotic resistance in bacteria and their impact on health and the environment. 
+                            <a target="_blank" href="https://expresso.pt/podcasts/o-futuro-do-futuro/2023-09-12-Ana-Margarida-Almeida-microbiologista-Ha-o-perigo-de-deixarmos-de-ter-antibioticos-que-funcionem-0c279b9a">(interview in Portuguese)</a></span>
+                        
+                        </div>
+                        
+                      </p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  4 of 6</p>
+                  </div>
+                </div>
+                <div class="quote-classic ">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">Welcome to our first team member! 
+                      </p>
+                      <p class="quote-cite">
+                        Dr. Rita Sousa, a superwoman gastroenterologist at Hospital da Luz Lisboa and mom of 2, has joined the Microbiome HD team as a PhD student, becoming our inaugural team member! She is going to be pursuing her PhD in early onset CRC. Welcome, Rita!
+                        
+                      </p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  5 of 6</p>
+                  </div>
+                </div>
+                <div class="quote-classic ">
+                  <div class="quote-body">
+                    <div class="quote-mark mt-n2"></div>
+                    <div class="quote-text">
+                      <p class="q h4">The Microbiome in Health and Disease Translational Lab officially opens its doors on May 1st
+                      </p>
+                      <p class="quote-cite">
+                        The day has finally arrived! The  Microbiome in Health and Disease Translational Lab is officially starting. We are recruiting, so get in touch!
+                      </p>
+                    
+                    </div>
+                  </div>
+                  <div class="quote-footer">
+                    <p class="quote-cite">-  6 of 6</p>
+                  </div>
+                </div>
+
+
+                <!-- <div class="quote-classic">
                   <div class="quote-body">
                     <div class="quote-mark mt-n2"></div>
                     <div class="quote-text">
@@ -530,7 +701,7 @@
                   <div class="quote-footer">
                     <p class="quote-cite">-  3 of 3</p>
                   </div>
-                </div>
+                </div> -->
                 <!-- <div class="quote-classic">
                   <div class="quote-body">
                     <div class="quote-mark mt-n2"></div>
@@ -595,6 +766,7 @@
             </div>
             <div class="col-md-6 col-xl-3">
               <img src="images/iMM.png" alt="IMM, Instituto Medicina Molecular" />
+              <img src="images/MicrobiomeHDLab_LogoDesign_BLACK.png" alt="" />
               <!-- <h6 class="footer-title">find me</h6>
               <ul class="footer-social list-social">
                 <li><a class="icon icon-md icomoon icomoon-twitter" href="#"></a></li>
@@ -618,5 +790,6 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
