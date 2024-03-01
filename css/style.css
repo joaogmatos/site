@@ -1841,7 +1841,96 @@ a[href*='tel'], a[href*='mailto'] {
 .box-service__profile3 {
 	background-image: url("../images/AnaSantosAlmeida.jpeg");
 }
-
+.box-service__profile4 {
+	background-image: url("../images/FotoMarianaM.png");
+}
+.box-service__profile5 {
+	background-image: url("../images/catarina.jpeg");
+}
+.box-service__profile6 {
+	background-image: url("../images/andre_photo3.jpeg");
+}
+.news_image {
+	width: auto;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	margin-bottom: 20px;
+}
+.news_image1 {
+	background-image: url("../images/MicrobiomeHDLab_LogoDesign_BLUE.png");
+}
+.news_image2 {
+	background-image: url('../images/RitaSousa.jpeg');
+	background-size: cover;
+}
+.news_image3 {
+	background-image: url('../images/expresso.png');
+	background-size: cover;
+}
+.news_image4 {
+	background-image: url('../images/20230926_150956.jpeg');
+	background-size: cover;
+}
+.news_image5 {
+	background-image: url('../images/publico-opiniao.png');
+}
+.news_image6 {
+	background-image: url('../images/researchersnight.png');
+	background-size: cover;
+}
+.news_image7 {
+	background-image: url('../images/cancro.jpeg');
+	background-size: cover;
+}
+.news_image8 {
+	background-image: url('../images/F9eeVzJWoAAwzaA.jpeg');
+	background-size: cover;
+}
+.news_image9 {
+	background-image: url('../images/nobarriga.png');
+}
+.news_image10 {
+	background-image: url('../images/FotoMarianaM.png');
+}
+.news_image11 {
+	background-image: url('../images/F_Zy4bzWEAAEWot.jpeg');
+	background-size: cover;
+}
+.news_image12 {
+	background-image: url('../images/GB0m_UBXsAAnxHv.jpeg');
+	background-size: cover;
+}
+.news_image13 {
+	background-image: url('../images/catarina.jpeg');
+}
+.news_image14 {
+	background-image: url('../images/IMG_0965.jpeg');
+	background-size: cover;
+	background-position: bottom;
+}
+.news_image15 {
+	background-image: url('../images/andre_photo3.jpeg');
+	background-size: cover;
+}
+.news_image16 {
+	background-image: url('../images/20240206_161154.jpg');
+	background-size: cover;
+}
+.news_image17 {
+	background-image: url('../images/mw-720.webp');
+	background-size: cover;
+}
+.col-img-team {
+	width: 510px;
+    height: 620px;
+	background-image: url('../images/AnaSantosAlmeida.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-bottom: 20px;
+}
 @media (min-width: 768px) {
 	.box-service-mod {
 		border-bottom: none;
@@ -8840,12 +8929,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .slide1 {
-	background-image: url('../images/20230926_150956.jpeg');
+	background-image: url('../images/20240206_161154.jpg');
   }
   .slide2 {
-	background-image: url('../images/20230926_151157.jpeg');
+	background-image: url('../images/20240206_160826.jpg');
   }
   .slide3 {
 	background-image: url('../images/AnaIMM2.jpeg');
