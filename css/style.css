@@ -4768,10 +4768,18 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
-	max-width: 160px;
-	max-height: 58px;
 	width: auto;
-	height: auto;
+	height: 50px;
+}
+.rd-navbar-fixed .rd-navbar-brand .logo-logo2 {
+	height: 70px;
+    width: auto;
+    left: 190px;
+	margin: 0;
+}
+.rd-navbar-fixed .rd-navbar-brand a {
+	display: flex;
+	align-items: center;
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
@@ -9012,6 +9020,26 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .rd-navbar--is-stuck .logo-logo {
 	margin-top: -24px;
 }
+.logo-logo2 {
+	height: 70px;
+    width: auto;
+    left: 190px;
+    top: 39px;
+}
+.footer-logo-care {
+	height: 87px;
+    margin: 0;
+}
+.footer-logo-lab {
+	margin-top: 15px;
+}
+.rd-navbar--is-stuck .logo-logo2 {
+	height: 70px;
+    width: auto;
+    left: 190px;
+    top: 24px;
+}
+
 .carossel-slide {
 	display: grid;
     grid-template-columns: 130px auto;
