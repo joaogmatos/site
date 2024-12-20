@@ -4772,9 +4772,9 @@ html.tablet .ui-to-top {
 	height: 50px;
 }
 .rd-navbar-fixed .rd-navbar-brand .logo-logo2 {
-	height: 70px;
+	height: 50px;
     width: auto;
-    left: 190px;
+    left: 205px;
 	margin: 0;
 }
 .rd-navbar-fixed .rd-navbar-brand a {
@@ -9021,10 +9021,10 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	margin-top: -24px;
 }
 .logo-logo2 {
-	height: 70px;
+	height: 50px;
     width: auto;
-    left: 190px;
-    top: 39px;
+    left: 205px;
+    top: 46px;
 }
 .footer-logo-care {
 	height: 87px;
@@ -9034,10 +9034,10 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	margin-top: 15px;
 }
 .rd-navbar--is-stuck .logo-logo2 {
-	height: 70px;
+	height: 50px;
     width: auto;
-    left: 190px;
-    top: 24px;
+    left: 205px;
+    top: 35px;
 }
 
 .carossel-slide {
